@@ -1,4 +1,4 @@
-"""webDjango URL Configuration
+"""pro URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import include
-
+from . import views
 urlpatterns = [
-    path('djangoweb/',include('djangoApp.urls')),
+    path('up/',views.example,name='index'),
+    path('arriba/',views.index,name='index'),
+    path('deltarune/',views.big_shot,name='big_shot'),
     path('admin/', admin.site.urls),
 ]
