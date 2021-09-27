@@ -4,7 +4,8 @@ def index(request):
     return render(request, 'deltarune.html')
 def big_shot(request):
     return render(request, 'villanos.html')
-def example(request):
-    return render(request, 'example.html')
+def charater(request):
+    return render(request, 'character.html')
+
 
 # Create your views here.
