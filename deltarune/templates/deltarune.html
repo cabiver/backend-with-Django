@@ -10,17 +10,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body class="bg-dark">
-    <section class="d-flex align-items-center flex-column container-sm text-center">
-        <img src="{% static 'deaddance.gif' %}" alt="">
-        <h2 class="text-light">saluda a nuestro equipo</h2>
-        <h3 class="text-light">nuestra waifu <span>ralsei</span></h3>
-        <img class="w-50" src="{% static 'comentario3.gif' %}" alt="">
-        <h2 class="text-light">la matona del equipo que puede morderte la cara como si fuera FNAF</h2>
-        <h3 class="text-light"><span>susie</span></h3>
-        <img class="w-50" src="{% static 'susie.gif' %}" alt="">
-        <h2 class="text-light">y el sospechoso al caballero, o ser manipulado por el</h2>
-        <h3 class="text-light"><span>Kris</span></h3>
-        <img class="w-50" src="{% static 'tenor.gif' %}" alt="">
+    <section class="d-flex align-items-center flex-column container text-center mb-3 mt-3">
+        <img class="container-md" style="max-width: 500px;" src="{% static 'deaddance.gif' %}" alt="">
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-lg-8">
+                <h2 class="text-light">saluda a nuestro equipo</h2>
+                <h3 class="text-light">nuestra waifu, ralsei</h3>    
+            </div>
+            <img class="col-lg-4 col-sm-6" src="{% static 'comentario3.gif' %}" alt="">    
+        </div>
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-lg-8">
+                <h2 class="text-light">la matona del equipo que puede morderte la cara como si fuera FNAF</h2>
+                <h3 class="text-light"></h3>    
+            </div>
+            <img class="col-lg-4 col-sm-6" src="{% static 'susie.gif' %}" alt="">
+        </div>
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-lg-8">
+                <h2 class="text-light">y el sospechoso al caballero, o ser manipulado por el</h2>
+                <h3 class="text-light ">Kris</h3>
+            </div>
+            <img class="col-lg-4 col-sm-6" src="{% static 'tenor.gif' %}" alt="">
+        </div>
+        
     </section>
 </body>
 </html>

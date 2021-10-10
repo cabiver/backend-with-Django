@@ -11,12 +11,20 @@
 </head>
 <body class="bg-dark">
     <section class="d-flex align-items-center flex-column container-sm text-center">
-        <h2 class="text-light">el pajaso y comodin por exelencia</h2>
-        <h3 class="text-light"><span>jevil</span></h3>
-        <img class="w-50" src="{% static 'jevil.gif' %}" alt="">
-        <h2 class="text-light">el mas loco, vasado de la hambicion de metaton</h2>
-        <h3 class="text-light"><span>spamton</span></h3>
-        <img class="w-50" src="{% static 'spamton.gif' %}" alt="">
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-lg-8">
+                <h2 class="text-light">el payaso y comodin por exelencia</h2>
+                <h3 class="text-light">jevil</h3>
+            </div>
+            <img class="col-lg-4 col-sm-6" src="{% static 'jevil.gif' %}" alt="">
+        </div>
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-lg-8">
+                <h2 class="text-light">el mas loco, vasado de la hambicion de metaton</h2>
+                <h3 class="text-light">spamton</h3>
+            </div>
+            <img class="col-lg-4 col-sm-6" src="{% static 'spamton.gif'' %}" alt="">
+        </div>
     </section>
 </body>
 </html>
